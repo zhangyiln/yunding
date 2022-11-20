@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    width: 1920px;
+    height: 5545px;
+    margin: 0 auto;
+}
+
+.second {
+    height: 814px;
+    background-image: url(image/start.png);
+}
+
+.start {
+    position: relative;
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 54px;
+}
+
+.nav .nav_box {
+    line-height: 54px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "weiyuanyahei";
+    width: 102px;
+    height: 54px;
+}
+
+.nav .nav_box2 {
+    line-height: 54px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "weiyuanyahe";
+    width: 154px;
+}
+
+.nav .nav_box3 {
+
+    width: 235px;
+    height: 98px;
+    background-color: #e31c50;
+}
+.nav_box3 img {
+    margin-top: 17px;
+}
+
+.second_artwords {
+    position: absolute;
+    top: 324px;
+    left: 88px;
+    width: 1001px;
+    height: 218px;
+}
+
+.third {
+    position: relative;
+    height: 1293px;
+}
+.intro {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 0;
+    width: 1200px;
+    height: inherit;
+    
+}
+
+.third_ground {
+    width: 1920px;
+    height: 448px;
+    background-color: #e9e6e7;
+    margin-top: 30px;
+}
+
+.wel {
+    position: relative;
+    width: 1152px;
+    height: 507px;
+    margin-top: 38px;
+    margin-left: 48px;
+    
+}
+
+.wel_pic {
+    width: 420px;
+    height: 507px;
+}
+
+.wel_words {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 732px;
+    height: 507px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.wel_words1 {
+    width: 440px;
+    height: 48px;
+
+}
+
+.wel_words2 {
+    width: 592px;
+    height: 91px;
+    
+}
+
+.vedio {
+    position: absolute;
+    left: 119px;
+    top: 335px;
+    width: 364px;
+    height: 237px;
+    background-color: rgba(239,77,130,0.9);
+}
+.vedio img {
+    margin-top: 74px;
+    margin-left: 152px;
+}
+.series {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 0;
+    width: 1200px;
+    height: 583px;
+
+}
+
+.series_title {
+    width: 318px;
+    height: 44px;
+    margin: 0 auto;
+    
+}
+
+.serirs_detial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 225px;
+}
+
+.series_detail1 {
+    width: 354px;
+    height: 214px;
+    
+}
+
+.series_detail2 {
+    width: 362px;
+    height: 195px;
+}
+
+.series_detail3 {
+    width: 335px;
+    height: 220px;
+}
+
+.series_button {
+    font-size: 30px;
+    color: white;
+    line-height: 64px;
+    text-align: center;
+    width: 240px;
+    height: 64px;
+    margin: 0 auto;
+    background-color: #2f2f2f;
+}
+
+.forth {
+    position: relative;
+    width: 1920px;
+    height: 1746px;
+}
+
+.purchase {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    height: 1746px;
+}
+
+.forth_ground {
+    width: 1920px;
+    height: 388px;
+    background-color: #d9d7d8;
+}
+
+.pen {
+    position: relative;
+    width: 1200px;
+    height: 388px;
+}
+
+.lamy {
+    position: absolute;
+    top: 195px;
+    left: 39px;
+    width: 89px;
+    height: 36px;
+    background-color: rgb(232,2,77);
+}
+.lamy img {
+    margin-top: 9px;
+    margin-left: 17px;
+}
+.people_ground {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 348px;
+    background-color: #6e6c6c;
+
+}
+
+.people {
+    position: absolute;
+    top: 464px;
+    left: 50%;
+    margin-left: -427px;
+    width: 816px;
+    height: 372px;
+}
+
+.people_artwords {
+    position: absolute;
+    left: 50%;
+    margin-left: -153px;
+
+    width: 305px;
+    height: 55px;
+}
+
+.people_another {
+    position: absolute;
+    bottom: 0;
+    width: 816px;
+    height: 275px;
+    background-color: #fff;
+}
+
+.people_head {
+    position: absolute;
+    top: 41px;
+    left: 383px;
+    width: 73px;
+    height: 73px;
+    border-radius: 36px;
+    background-color: black;
+}
+
+.people_words {
+    position: absolute;
+    top: 141px;
+    left: 147px;
+    font-size: 17px;
+    width: 530px;
+    height: 60px;
+}
+
+.people_bottom {
+    position: absolute;
+    top: 234px;
+    left: 327px;
+    width: 233px;
+    height: 11px;
+}
+
+.products {
+    position: absolute;
+    left: 151px;
+    top: 911px;
+    width: 884px;
+    height: 650px;
+    background-color: #fff;
+}
+
+.products_artwords {
+    position: absolute;
+    left: 370px;
+    width: 158px;
+    height: 50px;
+}
+
+.products_show {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 884px;
+    height: 553px;
+}
+
+.products_show1 {
+    width: 251px;
+    height: 230px;
+}
+
+.products_show2 {
+    position: absolute;
+    bottom: 0;
+    width: 251px;
+    height: 301px;
+}
+
+.products_show3 {
+    position: absolute;
+    left: 315px;
+    width: 254px;
+    height: 373px;
+}
+
+.products_show4 {
+    position: absolute;
+    left: 315px;
+    bottom: 0;
+    width: 254px;
+    height: 162px;
+}
+
+.products_show5 {
+    position: absolute;
+    left: 633px;
+    width: 251px;
+    height: 230px;
+}
+
+.products_show6 {
+    position: absolute;
+    left: 633px;
+    bottom: 0;
+    width: 251px;
+    height: 301px;
+}
+
+.purchase_button {
+    font-size: 30px;
+    color: white;
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    top: 1640px;
+    left: 482px;
+    width: 240px;
+    height: 64px;
+    background-color: black;
+}
+
+.fifth {
+    position: relative;
+    width: 1920px;
+    height: 650px;
+    background-color: #fff;
+}
+
+.new {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+    height: 650px;
+}
+
+.fifth_ground {
+    width: 1920px;
+    height: 341px;
+    background-color: #595851;
+}
+
+.new_show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 89px;
+    left: 182px;
+    width: 878px;
+    height: 435px;
+    background-color: #fff;
+}
+.show1 {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    height: 121px;
+}
+.show1_pic {
+    width: 378px;
+    height: 121px;
+}
+.show1_words {
+    font-size: 24px;
+    font-style: italic;
+    width: 420px;
+    height: 121px;
+}
+.show2 {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    height: 121px;
+}
+.show2_pic {
+    width: 378px;
+    height: 121px;
+}
+
+.show2_words {
+    font-size: 24px;
+    font-style: italic;
+    width: 420px;
+    height: 121px;
+}
+.show3 {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    height: 121px;
+}
+.show3_pic {
+    width: 378px;
+    height: 121px;
+}
+
+.show3_words {
+    font-size: 24px;
+    font-style: italic;
+    width: 420px;
+    height: 121px;
+}
+
+.new_button {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 64px;
+    top: 562px;
+    left: 502px;
+    width: 240px;
+    height: 64px;
+    background-color: rgb(232, 2, 77);
+}
+.sixth {
+    width: 1920px;
+    height: 1014px;
+    background-image: url(image/bottom_03.png);
+}
+.bottom {
+    position: relative;
+    width: 1200px;
+    height: 1014px;
+    margin: 0 auto;
+}
+.bottom_artwords1 {
+    position: absolute;
+    top: 231px;
+    left: 430px;
+    width: 317px;
+    height: 77px;
+}
+.bottom_artwords2  {
+    position: absolute;
+    left: 312px;
+    top: 270px;
+    width: 68px;
+    height: 37px;
+}
+.bottom_artwords3  {
+    position: absolute;
+    left: 773px;
+    top: 270px;
+    width: 77px;
+    height: 37px;
+}
+.bottom_warning {
+    position: absolute;
+    bottom: 0;
+    left: -370px;
+    width: 1920px;
+    height: 36px;
+}
