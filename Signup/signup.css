@@ -5,9 +5,9 @@
 @font-face {
     font-family: 'iconfont';
     src:
-        url('./font_3790019_k7okuo8s33/iconfont.woff2?t=1669298460760') format('woff2'),
-        url('./font_3790019_k7okuo8s33/iconfont.woff?t=1669298460760') format('woff'),
-        url('./font_3790019_k7okuo8s33/iconfont.ttf?t=1669298460760') format('truetype');
+        url('./iconfont.woff2?t=1669298460760') format('woff2'),
+        url('./iconfont.woff?t=1669298460760') format('woff'),
+        url('./iconfont.ttf?t=1669298460760') format('truetype');
 }
 
 .iconfont {
@@ -131,6 +131,9 @@ input {
     height: 83px;
     border: none;
     background: none;
+    outline: none;
+    font-size: 30px;
+    color: white;
 }
 label {
     width: 162px;
