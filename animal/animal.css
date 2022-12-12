@@ -209,7 +209,7 @@ input[value="SIGN UP"] {
     }
 }
 .difference h1:hover {
-    animation: difference 4s alternate;
+    animation: difference 2s steps(4) alternate;
 }
 .diff_animal {
     height: 413px;
