@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <script>
+        function countstr(bigStr, smallStr) {
+            let bigLen = bigStr.length;
+            let smallLen = smallStr.length;
+            let i = 0, j = 0;
+            var count = 0;
+            while (i < bigLen) {
+                if (bigStr[i] === smallStr[j]) {
+                    i++;
+                    j++;
+                    if (j === smallLen) {
+                        j = 0;
+                        count++;
+                    }
+                } else {
+                    i++;
+                }
+            }
+            return count;
+        }
+        var bigStr = prompt('请输入一个字符串');
+        var smallStr = prompt('请输入它的字串');
+        console.log('母串为' + bigStr + '\n', '字串为' + smallStr + '\n', '出现次数为' + countstr(bigStr, smallStr) + '次'); 
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
