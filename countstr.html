@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
     <script>
+        // 定义子串统计函数
         function countstr(bigStr, smallStr) {
-            let bigLen = bigStr.length;
-            let smallLen = smallStr.length;
-            let i = 0, j = 0;
-            var count = 0;
+            // 定义变量
+            let bigLen = bigStr.length; // 母串长度
+            let smallLen = smallStr.length; // 字串长度
+            let i = 0, j = 0; // 循环变量
+            var count = 0; // 计数变量
+            
             while (i < bigLen) {
                 if (bigStr[i] === smallStr[j]) {
                     i++;
@@ -24,10 +27,13 @@
                     i++;
                 }
             }
+
             return count;
         }
+        // 定义输入语句
         var bigStr = prompt('请输入一个字符串');
         var smallStr = prompt('请输入它的字串');
+        // 定义输出语句
         console.log('母串为' + bigStr + '\n','字串为' + smallStr + '\n','出现次数为' + countstr(bigStr, smallStr) + '次'); 
     </script>
 </head>
