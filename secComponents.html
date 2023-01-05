@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .bigBox {
+            display: inline-block;
+            margin: 100px 0;
+            background-color: orange;
+            text-align: center;
+        }
+
+        .passage {
+            width: 500px;
+            margin: 10px 0;
+            font-size: 30px;
+            color: white;
+            line-height: 40px;
+            background-color: green;
+            border-radius: 10px;
+        }
+
+        ul {
+            display: none;
+            font-size: 20px;
+            margin: 20px 0;
+            background-color: orange;
+            border-radius: 10px;
+            list-style: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+            border-radius: 10px;
+            background-color: black;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bigBox">
+        <div class="passage">passage1
+            <ul>
+                <li><a href="javascript: ;">passage1.1</a></li>
+                <li><a href="javascript: ;">passage1.2</a></li>
+                <li><a href="javascript: ;">passage1.3</a></li>
+            </ul>
+        </div>
+        <div class="passage">passage2
+            <ul>
+                <li><a href="javascript: ;">passage2.1</a></li>
+                <li><a href="javascript: ;">passage2.2</a></li>
+                <li><a href="javascript: ;">passage2.3</a></li>
+            </ul>
+        </div>
+        <div class="passage">passage3
+            <ul>
+                <li><a href="javascript: ;">passage3.1</a></li>
+                <li><a href="javascript: ;">passage3.2</a></li>
+                <li><a href="javascript: ;">passage3.3</a></li>
+            </ul>
+        </div>
+        <div class="passage">passage4
+            <ul>
+                <li><a href="javascript: ;">passage4.1</a></li>
+                <li><a href="javascript: ;">passage4.2</a></li>
+                <li><a href="javascript: ;">passage4.3</a></li>
+            </ul>
+        </div>
+        <div class="passage">passage5
+            <ul>
+                <li><a href="javascript: ;">passage5.1</a></li>
+                <li><a href="javascript: ;">passage5.2</a></li>
+                <li><a href="javascript: ;">passage5.3</a></li>
+            </ul>
+        </div>
+        <div class="passage">passage6
+            <ul>
+                <li><a href="javascript: ;">passage6.1</a></li>
+                <li><a href="javascript: ;">passage6.2</a></li>
+                <li><a href="javascript: ;">passage6.3</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        // 定义对象
+            let arr = [box1, box2, box3, box4, box5, box6] = document.getElementsByClassName("passage");
+            let array = [smallbox1, smallbox2, smallbox3, smallbox4, smallbox5, smallbox6] = document.querySelectorAll("ul");
+
+            // 绑定事件
+            for (let i = 0; i < arr.length; i++) {
+
+                arr[i].addEventListener("click", function () {
+                    console.log(array[i]);
+                    if (array[i].style.display == "block") {
+                        array[i].style.display = "none";
+                    } else {
+                        array[0].style.display = "none";
+                        array[1].style.display = "none";
+                        array[2].style.display = "none";
+                        array[3].style.display = "none";
+                        array[4].style.display = "none";
+                        array[5].style.display = "none";
+                        array[i].style.display = "block";
+                    }
+                })
+
+            }
+    </script>
+</body>
+
+</html>
